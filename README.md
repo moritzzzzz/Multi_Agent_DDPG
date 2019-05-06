@@ -13,7 +13,9 @@ Unity Environment: Tennis
 
 This projects goal is to utilize Deep Reinforcement Learning (DRL) to train two agents to control one tennis bat each to keep the ball from touching the ground.
 
-A trained agent will can be seen in below animation, in which the defined position is marked with a green sphere: 
+![Tennis][image1]
+
+(source: https://s3.amazonaws.com/video.udacity-data.com/topher/2018/May/5af7955a_tennis/tennis.png)
 
 ### Environment
 In RL the environment defines what the agent will learn. In this case the environment allows the agent to choose the magnitude of 2 dimensions of its action in each timesequence. The action space is continuous, which poses the essence, as well as the challenge in this project. Every action dimension must be in range -1 to 1.
